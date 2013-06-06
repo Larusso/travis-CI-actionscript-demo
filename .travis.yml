@@ -1,3 +1,4 @@
-language: java
+language: objective-c
 before_install:
   - echo "test"
+script: mvn test
