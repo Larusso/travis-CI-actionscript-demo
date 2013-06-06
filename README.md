@@ -1,5 +1,6 @@
 travis-ci actionscript-demo
-======
+=====
+[![Build Status](https://travis-ci.org/Larusso/travis-CI-actionscript-demo.png?branch=master)](https://travis-ci.org/Larusso/travis-CI-actionscript-demo)
 
 A simple demo that demonstrates a way to unit test action scrip applications with [travis-ci](http://travis-ci.org)
 
