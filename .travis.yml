@@ -1,5 +1,6 @@
 language: objective-c
 before_install:
   - echo "test"
-  - export PATH=$PATH:.
+  - CURRENTPATH=`pwd`
+  - export PATH=$PATH:$CURRENTPATH
 script: mvn test
