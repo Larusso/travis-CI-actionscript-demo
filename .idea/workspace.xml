@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="09948d7a-1183-4da3-b6c6-343f024be805" name="Default" comment="">
+    <list default="true" readonly="true" id="09948d7a-1183-4da3-b6c6-343f024be805" name="Default" comment="update travis build file">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/Flash Player Debugger.rsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/FlashPlayer.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_f4a.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_f4p.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_f4v.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_flv.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_swf.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/CodeResources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/_CodeSignature/CodeResources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/MacOS/Flash Player Debugger" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/PkgInfo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/PlayerUILocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/StandalonePlayerLocalizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installFlash.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -10,8 +87,9 @@
     <file path="/fragment.js2" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370540581503" ignored="false" />
     <file path="/LibraryMain.as" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370538309669" ignored="false" />
     <file path="/LibraryMainTest.as" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370540641922" ignored="false" />
-    <file path="/Dummy.txt" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370544672415" ignored="false" />
-    <file path="/.travis.yml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370545357643" ignored="false" />
+    <file path="/Dummy.txt" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370549300315" ignored="false" />
+    <file path="/.travis.yml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370549280965" ignored="false" />
+    <file path="$PROJECT_DIR$/atlassian-ide-plugin.xml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370549325920" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +183,16 @@
       <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="0.08555133">
+            <state line="3" column="23" selection-start="77" selection-end="77" vertical-scroll-proportion="0.08555133">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="installFlash.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/installFlash.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="44" selection-start="134" selection-end="169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,6 +220,7 @@
         <option value="$PROJECT_DIR$/test/LibraryMainTest.as" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/installFlash.sh" />
         <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
@@ -430,7 +518,11 @@
       <created>1370544676977</created>
       <updated>1370544676977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update travis build file">
+      <created>1370545363497</created>
+      <updated>1370545363497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -455,7 +547,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296501" sideWeight="0.64493597" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296501" sideWeight="0.64493597" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28667894" sideWeight="0.64493597" order="0" side_tool="false" content_ui="combo" />
@@ -576,9 +668,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/installFlash.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="134" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="0.08555133">
+        <state line="3" column="23" selection-start="77" selection-end="77" vertical-scroll-proportion="0.08555133">
           <folding />
         </state>
       </provider>
