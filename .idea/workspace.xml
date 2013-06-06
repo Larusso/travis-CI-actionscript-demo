@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="09948d7a-1183-4da3-b6c6-343f024be805" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/MacOS/Flash Player Debugger" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/PkgInfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/Flash Player Debugger.rsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/FlashPlayer.icns" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/cs.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/de.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_f4a.icns" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_f4p.icns" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_f4v.icns" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_flv.icns" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/document_swf.icns" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/en.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/es.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/fr.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/it.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ja.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ko.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/nl.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pl.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/pt.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/ru.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/sv.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/tr.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hans.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/MainMenu.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/PlayerUILocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/Resources/zh_Hant.lproj/StandalonePlayerLocalizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flash Player.app/Contents/_CodeSignature/CodeResources" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sampleLib.iws" />
@@ -87,10 +10,9 @@
     <file path="/fragment.js2" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370540581503" ignored="false" />
     <file path="/LibraryMain.as" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370538309669" ignored="false" />
     <file path="/LibraryMainTest.as" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370540641922" ignored="false" />
-    <file path="/Dummy.txt" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370553497635" ignored="false" />
+    <file path="/Dummy.txt" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370555259686" ignored="false" />
     <file path="/.travis.yml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370555214624" ignored="false" />
     <file path="/pom.xml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370553967725" ignored="false" />
-    <file path="$PROJECT_DIR$/atlassian-ide-plugin.xml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370555258528" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +106,7 @@
       <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="61" selection-start="247" selection-end="247" vertical-scroll-proportion="0.11406844">
+            <state line="4" column="53" selection-start="239" selection-end="239" vertical-scroll-proportion="0.11406844">
               <folding />
             </state>
           </provider>
@@ -553,7 +475,11 @@
       <created>1370553503276</created>
       <updated>1370553503276</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update travis build file">
+      <created>1370555267862</created>
+      <updated>1370555267862</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="61" selection-start="247" selection-end="247" vertical-scroll-proportion="0.11406844">
+        <state line="4" column="53" selection-start="239" selection-end="239" vertical-scroll-proportion="0.11406844">
           <folding />
         </state>
       </provider>
