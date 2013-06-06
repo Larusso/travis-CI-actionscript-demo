@@ -1,6 +1,5 @@
 language: objective-c
-before_install:
-  - echo "test"
-  - CURRENTPATH=`pwd`
-  - export PATH=$PATH:$CURRENTPATH
-script: mvn test -DflashPlayer.command=Flash\ Player.app/Contents/MacOS/Flash\ Player\ Debugger
+before_script:
+  - curl 'http://fpdownload.macromedia.com/pub/flashplayer/updaters/11/flashplayer_11_sa_debug.app.zip' >> flashplayer.zip
+  - unzip flashplayer.zip
+script: mvn test -DflashPlayer.command=Flash\ Player Debugger.app/Contents/MacOS/Flash\ Player\ Debugger
