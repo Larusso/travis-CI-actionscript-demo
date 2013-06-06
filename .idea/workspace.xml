@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="09948d7a-1183-4da3-b6c6-343f024be805" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sampleLib.iws" />
@@ -10,8 +11,9 @@
     <file path="/fragment.js2" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370540581503" ignored="false" />
     <file path="/LibraryMain.as" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370538309669" ignored="false" />
     <file path="/LibraryMainTest.as" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370540641922" ignored="false" />
-    <file path="/Dummy.txt" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370549327067" ignored="false" />
+    <file path="/Dummy.txt" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370551154788" ignored="false" />
     <file path="/.travis.yml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370551115525" ignored="false" />
+    <file path="/pom.xml" changelist="09948d7a-1183-4da3-b6c6-343f024be805" time="1370553331729" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="853" selection-end="853" vertical-scroll-proportion="-10.625">
+            <state line="45" column="0" selection-start="1719" selection-end="1719" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +107,7 @@
       <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="80" selection-end="80" vertical-scroll-proportion="0.11406844">
+            <state line="5" column="95" selection-start="206" selection-end="206" vertical-scroll-proportion="0.14258555">
               <folding />
             </state>
           </provider>
@@ -141,8 +143,8 @@
         <option value="$PROJECT_DIR$/src/LibraryMain.as" />
         <option value="$PROJECT_DIR$/test/LibraryMainTest.as" />
         <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/installFlash.sh" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
@@ -448,7 +450,11 @@
       <created>1370549339305</created>
       <updated>1370549339305</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update travis build file">
+      <created>1370551158112</created>
+      <updated>1370551158112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -587,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="853" selection-end="853" vertical-scroll-proportion="-10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/installFlash.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="44" selection-start="134" selection-end="169" vertical-scroll-proportion="0.0">
@@ -601,9 +600,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1719" selection-end="1719" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="80" selection-end="80" vertical-scroll-proportion="0.11406844">
+        <state line="5" column="95" selection-start="206" selection-end="206" vertical-scroll-proportion="0.14258555">
           <folding />
         </state>
       </provider>

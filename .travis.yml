@@ -3,4 +3,4 @@ before_install:
   - echo "test"
   - CURRENTPATH=`pwd`
   - export PATH=$PATH:$CURRENTPATH
-script: mvn test
+script: mvn test -DflashPlayer.command=Flash\ Player.app/Contents/MacOS/Flash\ Player\ Debugger
