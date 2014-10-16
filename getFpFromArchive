@@ -2,8 +2,12 @@
 #
 # Get FlashPlayer Form Archive 1.0, 2014
 #
-# Script downloads a Flash Archive zip and looks for the Mac Debug Player.
-# It will then unzip it to the expected location and cleanup what was downloaded
+# Script downloads a Flash Archive zip, unzips the archive, located the needed
+# Mac OS Debug Flash Player, unzips that file and cleans up all but the Flash
+# Player folder.
+#
+# Find specific Flash Player from the Adobe Archives:
+# http://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of 
 # this software and associated documentation files (the "Software"), to deal in 
@@ -31,6 +35,7 @@
 FP_ARCHIVE_PATH="fp_archive"
 FP_ARCHILVE_ZIP="fp_archive.zip"
 EXPECTED_ARG="<FlashPlayer Archile Url>"
+VERSION="1.0"
 
 if [ "$#" -gt 1 ]; then
   echo "Too many arguments."
@@ -43,6 +48,10 @@ if [ "$1" = "" ]; then
 	echo "Usage: $0 ${EXPECTED_ARG}"
 	exit 1
 fi
+
+echo "[INFO] ------------------------------------------------------------------------"
+echo "[INFO] Getting FlashPlayer From Archive ${VERSION}"
+echo "[INFO] ------------------------------------------------------------------------"
 
 FP_ZIP_ARCHIVE_URL=$1
 
@@ -58,6 +67,10 @@ unzip ${MAC_SA_DEBUG_APP_ZIP}
 # cleanup
 rm ${FP_ARCHILVE_ZIP}
 rm -r ${FP_ARCHIVE_PATH}
+
+echo "[INFO] ------------------------------------------------------------------------"
+echo "[INFO] Flash Player Downloaded Complete."
+echo "[INFO] ------------------------------------------------------------------------"
 
 # done
 exit 0
