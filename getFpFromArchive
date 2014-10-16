@@ -33,7 +33,7 @@
 #
 
 FP_ARCHIVE_PATH="fp_archive"
-FP_ARCHILVE_ZIP="fp_archive.zip"
+FP_ARCHIVE_ZIP="fp_archive.zip"
 EXPECTED_ARG="<FlashPlayer Archile Url>"
 VERSION="1.0"
 
@@ -50,26 +50,39 @@ if [ "$1" = "" ]; then
 fi
 
 echo "[INFO] ------------------------------------------------------------------------"
-echo "[INFO] Getting FlashPlayer From Archive ${VERSION}"
+echo "[INFO] Get FlashPlayer From Archive, ${VERSION}"
 echo "[INFO] ------------------------------------------------------------------------"
 
-FP_ZIP_ARCHIVE_URL=$1
-
 # Download the archive
-curl ${FP_ZIP_ARCHIVE_URL} >> ${FP_ARCHILVE_ZIP}
+FP_ZIP_ARCHIVE_URL=$1
+echo "[INFO] Downloading: ${FP_ZIP_ARCHIVE_URL}"
+curl ${FP_ZIP_ARCHIVE_URL} >> ${FP_ARCHIVE_ZIP}
+
 # Unzip archive
-unzip fp_archive -d ${FP_ARCHIVE_PATH}
+echo "[INFO] Unzipping to: ${FP_ARCHIVE_PATH}"
+unzip ${FP_ARCHIVE_ZIP} -d ${FP_ARCHIVE_PATH}
+
 # locate the mac_sa_debug.app.zip file and ignore any .* files
-MAC_SA_DEBUG_APP_ZIP=`find . -type f \( -iname "*mac_sa_debug.app.zip" ! -iname ".*" \)`
+# these seem to be inconsistent, "*mac_sa_debug.app.zip" and
+# "*mac_sa_debug.zip" have been notedr,
+MAC_SA_DEBUG_APP_ZIP=`find . -type f \( -iname "*mac_sa_debug*.zip" ! -iname ".*" \)`
+if [ "${MAC_SA_DEBUG_APP_ZIP}" = "" ]; then
+	echo "[ERROR] Can not find required Mac SA Debug Player ZIP."
+	exit 1
+fi
+echo "[INFO] Found Mac SA Debug Player Zip: ${MAC_SA_DEBUG_APP_ZIP}"
+
 # Unzip mac_sa_debug.app.zip
+echo "[INFO] Unzipping player"
 unzip ${MAC_SA_DEBUG_APP_ZIP}
 
 # cleanup
-rm ${FP_ARCHILVE_ZIP}
+echo "[INFO] cleaning up temp files."
+rm ${FP_ARCHIVE_ZIP}
 rm -r ${FP_ARCHIVE_PATH}
 
 echo "[INFO] ------------------------------------------------------------------------"
-echo "[INFO] Flash Player Downloaded Complete."
+echo "[INFO] Flash Player Downloaded and Unzip Success"
 echo "[INFO] ------------------------------------------------------------------------"
 
 # done
