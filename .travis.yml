@@ -1,5 +1,9 @@
-language: objective-c
+language: java
+jdk:
+  - openjdk6
 before_script:
-  - curl 'http://fpdownload.macromedia.com/pub/flashplayer/updaters/11/flashplayer_11_sa_debug.app.zip' >> flashplayer.zip
-  - unzip flashplayer.zip
+  # To pick a specific Flash Player from the Adobe Archives:
+  # http://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
+  # getFpFromArchive script will download and unzip the needed Flash Player
+  - sh getFpFromArchive 'http://fpdownload.macromedia.com/pub/flashplayer/installers/archive/fp_10.3.183.90_archive_mac_only.zip'
 script: mvn test -DflashPlayer.command=Flash\ Player\ Debugger.app/Contents/MacOS/Flash\ Player\ Debugger

@@ -1,0 +1,63 @@
+#!/bin/sh
+#
+# Get FlashPlayer Form Archive 1.0, 2014
+#
+# Script downloads a Flash Archive zip and looks for the Mac Debug Player.
+# It will then unzip it to the expected location and cleanup what was downloaded
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy of 
+# this software and associated documentation files (the "Software"), to deal in 
+# the Software without restriction, including without limitation the rights to 
+# use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
+# of the Software, and to permit persons to whom the Software is furnished to do 
+# so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in all 
+# copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+# SOFTWARE.
+# 
+# Tested on OSX (10.9)
+# 
+# Copyright (c) 2014 Hays Clark
+#
+
+FP_ARCHIVE_PATH="fp_archive"
+FP_ARCHILVE_ZIP="fp_archive.zip"
+EXPECTED_ARG="<FlashPlayer Archile Url>"
+
+if [ "$#" -gt 1 ]; then
+  echo "Too many arguments."
+  echo "Usage: $0 ${EXPECTED_ARG}"
+  exit 1
+fi
+
+if [ "$1" = "" ]; then
+	echo "Missing required argument."
+	echo "Usage: $0 ${EXPECTED_ARG}"
+	exit 1
+fi
+
+FP_ZIP_ARCHIVE_URL=$1
+
+# Download the archive
+curl ${FP_ZIP_ARCHIVE_URL} >> ${FP_ARCHILVE_ZIP}
+# Unzip archive
+unzip fp_archive -d ${FP_ARCHIVE_PATH}
+# locate the mac_sa_debug.app.zip file and ignore any .* files
+MAC_SA_DEBUG_APP_ZIP=`find . -type f \( -iname "*mac_sa_debug.app.zip" ! -iname ".*" \)`
+# Unzip mac_sa_debug.app.zip
+unzip ${MAC_SA_DEBUG_APP_ZIP}
+
+# cleanup
+rm ${FP_ARCHILVE_ZIP}
+rm -r ${FP_ARCHIVE_PATH}
+
+# done
+exit 0
