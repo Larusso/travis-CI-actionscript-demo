@@ -1,5 +1,10 @@
 language: objective-c
+
 before_script:
-  - curl 'http://fpdownload.macromedia.com/pub/flashplayer/updaters/11/flashplayer_11_sa_debug.app.zip' >> flashplayer.zip
-  - unzip flashplayer.zip
+  # set the JAVA_HOME which is not set by default for OSX Travis-CI workers
+  - export "JAVA_HOME=`/usr/libexec/java_home`"
+  # Download and install a specific Flash Player from the Adobe Archives:
+  # http://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
+  - sh getFpFromArchive 'http://download.macromedia.com/pub/flashplayer/installers/archive/fp_11.7.700.225_archive.zip'
+
 script: mvn test -DflashPlayer.command=Flash\ Player\ Debugger.app/Contents/MacOS/Flash\ Player\ Debugger
