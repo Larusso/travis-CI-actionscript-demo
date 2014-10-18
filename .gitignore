@@ -3,6 +3,9 @@ bin/
 bin-debug/
 bin-release/
 
+# Maven Build Folders
+target/
+
 # Other files and folders
 .settings/
 
