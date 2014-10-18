@@ -31,6 +31,9 @@
 							<flashplayerCommand >${flashPlayer.command}</flashplayerCommand >
 						</launcher >
 					</testRunner >
+					<compilerWarnings>
+                        <warn-no-constructor>false</warn-no-constructor>
+                    </compilerWarnings>
 					<headlessServer >true</headlessServer >
 					<verboseStacktraces >true</verboseStacktraces >
 					<includeTestFiles >
