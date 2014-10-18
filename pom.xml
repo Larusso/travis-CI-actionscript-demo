@@ -11,8 +11,8 @@
 	<name >Travis-CI AS3 Unittest Demo</name >
 
 	<properties >
-		<flex.sdk.version >3.5.0.12683</flex.sdk.version >
-		<flexmojos.version >3.6.1</flexmojos.version >
+		<flex.sdk.version >4.5.1.21328</flex.sdk.version >
+		<flexmojos.version >4.0-RC2</flexmojos.version >
 		<flexunit.version >4.0-rc-1</flexunit.version >
 	</properties >
 
@@ -26,14 +26,11 @@
 				<version >${flexmojos.version}</version >
 				<extensions >true</extensions >
 				<configuration >
-					<testRunner >
-						<launcher >
-							<flashplayerCommand >${flashPlayer.command}</flashplayerCommand >
-						</launcher >
-					</testRunner >
 					<compilerWarnings>
                         <warn-no-constructor>false</warn-no-constructor>
                     </compilerWarnings>
+
+					<configurationReport>true</configurationReport>
 					<headlessServer >true</headlessServer >
 					<verboseStacktraces >true</verboseStacktraces >
 					<includeTestFiles >
