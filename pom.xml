@@ -13,7 +13,7 @@
 	<properties >
 		<flex.sdk.version >4.5.1.21328</flex.sdk.version >
 		<flexmojos.version >4.0-RC2</flexmojos.version >
-		<flexunit.version >4.0-rc-1</flexunit.version >
+		<flexunit.version >4.1.0-8</flexunit.version >
 	</properties >
 
 	<build >
