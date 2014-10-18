@@ -38,3 +38,4 @@ mvn test -DflashPlayer.command=Flash\ Player\ Debugger.app/Contents/MacOS/Flash\
  * [Flex-Mojos (Pre-Apache Flex)](http://code.google.com/p/flex-mojos/)
  * [Flex-Mojos (Post-Apache Flex)](https://flexmojos.atlassian.net/wiki/display/FLEXMOJOS/Home)
  * [Flex-Mojos Introduction](https://github.com/justinjmoses/flexmojos-introduction)
+ * [Using Flex-Mojos with IntelliJ IDEA](http://wiki.jetbrains.net/intellij/Working_with_Flexmojos_projects_in_IntelliJ_IDEA)
