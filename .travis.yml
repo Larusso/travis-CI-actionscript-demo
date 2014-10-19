@@ -10,7 +10,9 @@ before_script:
   - export PATH="Flash Player Debugger.app/Contents/MacOS":$PATH
   # FLex-Mojo is expecting the "Flash Player" command so copy "Flash Player Debug" to "Flash Player"
   - cp Flash\ Player\ Debugger.app/Contents/MacOS/Flash\ Player\ Debugger Flash\ Player\ Debugger.app/Contents/MacOS/Flash\ Player
-  # Install FlexUnit 4.1 local
+  # Manually install FlexUnit 4.1 locally
   - mvn install:install-file -Dfile=./libs/flexunit-4.1.0-8-flex_4.1.0.16076.swc -DgroupId=com.adobe.flexunit -DartifactId=flexunit -Dversion=4.1.0-8 -Dpackaging=swc
+  # Manually install Mockito-Flex 1.4M5 locally
+  - mvn install:install-file -Dfile=./libs/mockito-flex-1.4M5.swc -DgroupId=org.mockito -DartifactId=mockito-flex -Dversion=1.4M5 -Dpackaging=swc
 
 script: mvn test
