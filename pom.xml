@@ -26,6 +26,9 @@
 				<version >${flexmojos.version}</version >
 				<extensions >true</extensions >
 				<configuration >
+					<coverage>true</coverage>
+				    <coverageProvider>cobertura</coverageProvider>
+		   	 		
 					<compilerWarnings>
                         <warn-no-constructor>false</warn-no-constructor>
                     </compilerWarnings>
