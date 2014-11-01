@@ -1,6 +1,7 @@
 # Travis-CI ActionScript Demo
+<img src="https://cloud.githubusercontent.com/assets/138324/4870922/d9fe6306-618f-11e4-8c9b-1bcfde64a027.png" width=200 height=200 alt="Travis-CI As3 Flexmojos Icon" align="right" />
 
-A collection of simple [ActionScript](http://en.wikipedia.org/wiki/ActionScript) example projects using [Travis CI](http://travis-ci.org) for build automation.  All of the projects are utilizing the [flex-mojos](http://code.google.com/p/flex-mojos/) pluging for [Maven](http://maven.apache.org/). 
+A collection of simple [ActionScript3](http://en.wikipedia.org/wiki/ActionScript) example projects using [Travis CI](http://travis-ci.org) for build automation.  All of the projects are utilizing the [flex-mojos](http://code.google.com/p/flex-mojos/) pluging for [Maven](http://maven.apache.org/). Examples are designed to help developers setup Continuous Integration for Flash and Flex projects.  Flexmojos can be utilized to build swfs, swcs, and air assets, in addition to running unittest and generating docs and code coverage reports.
 
 ## Installation
 
