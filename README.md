@@ -10,13 +10,7 @@ Start by cloning the repo.
 git clone git@github.com:Larusso/travis-CI-actionscript-demo.git
 ```
 
-Each example is stored using a Git tag, so pull the repo's tags.
-
-```
-git pull --tags
-```
-
-List available tags (or see list below).
+Each example is stored using a Git tag, list the tags to see examples (or see list below).
 
 ```
 git tag
@@ -41,11 +35,11 @@ git checkout [tagname]
 
 ## Resources
 
-### Flex-Mojos
-
  * [Flex-Mojos (Pre-Apache Flex)](http://code.google.com/p/flex-mojos/)
  * [Flex-Mojos (Post-Apache Flex)](https://flexmojos.atlassian.net/wiki/display/FLEXMOJOS/Home)
  * [Flex-Mojos Introduction](https://github.com/justinjmoses/flexmojos-introduction)
+ * [Mockito-Flex](https://bitbucket.org/loomis/mockito-flex/wiki/Home)
+ * [AsDoc](https://cwiki.apache.org/confluence/display/FLEX/ASDoc%27s)
  * [Using Flex-Mojos with IntelliJ IDEA](http://wiki.jetbrains.net/intellij/Working_with_Flexmojos_projects_in_IntelliJ_IDEA)
 
 ## Authors
