@@ -1,6 +1,6 @@
 # Travis-CI ActionScript Demo
 
-[![Build Status](https://api.travis-ci.org/Larusso/travis-CI-actionscript-demo.svg?branch=flexmojos_4.0)](https://travis-ci.org/Larusso/travis-CI-actionscript-demo)
+[![Build Status](https://api.travis-ci.org/Larusso/travis-CI-actionscript-demo.svg?branch=flexmojos4.0)](https://travis-ci.org/Larusso/travis-CI-actionscript-demo)
 
 A simple demo that demonstrates a way to unit test [ActionScript](http://en.wikipedia.org/wiki/ActionScript) applications with [Travis CI](http://travis-ci.org)
 
