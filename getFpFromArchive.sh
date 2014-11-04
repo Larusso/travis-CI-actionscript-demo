@@ -56,7 +56,7 @@ echo "[INFO] -------------------------------------------------------------------
 # Download the archive
 FP_ZIP_ARCHIVE_URL=$1
 echo "[INFO] Downloading: ${FP_ZIP_ARCHIVE_URL}"
-curl ${FP_ZIP_ARCHIVE_URL} >> ${FP_ARCHIVE_ZIP}
+curl -L ${FP_ZIP_ARCHIVE_URL} >> ${FP_ARCHIVE_ZIP}
 
 # Unzip archive
 echo "[INFO] Unzipping to: ${FP_ARCHIVE_PATH}"
